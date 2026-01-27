@@ -84,7 +84,7 @@ production:
   primary: &primary_production
     <<: *default
     database: book_collection_1_production
-    url: <%= ENV['DATABASE_URL'] %>
+    url: <%= ENV["DATABASE_URL"] %>
     username: book_collection_1
     password: <%= ENV["BOOK_COLLECTION_1_DATABASE_PASSWORD"] %>
   cache:
