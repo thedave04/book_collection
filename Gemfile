@@ -63,8 +63,11 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+  gem "simplecov", require: false
 end
 
 gem "concurrent-ruby", "1.3.4"
 
 gem "rexml"
+
+gem "rubocop"
