@@ -308,6 +308,9 @@ GEM
     ruby-progressbar (1.13.0)
     rubyzip (3.2.2)
     securerandom (0.4.1)
+    seed_dump (3.4.1)
+      activerecord (>= 4)
+      activesupport (>= 4)
     selenium-webdriver (4.40.0)
       base64 (~> 0.2)
       logger (~> 1.4)
@@ -407,6 +410,7 @@ DEPENDENCIES
   rspec-rails
   rubocop
   rubocop-rails-omakase
+  seed_dump
   selenium-webdriver
   simplecov
   solid_cable
