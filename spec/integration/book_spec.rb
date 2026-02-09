@@ -1,6 +1,18 @@
 require 'rails_helper'
 
 RSpec.describe 'Create Book', type: :feature do
+  let(:admin) do
+    Admin.create!(
+      email: 'test@example.com',
+      full_name: 'Test User',
+      uid: '1234567890'
+    )
+  end
+
+  before do
+    login_as(admin, scope: :admin)
+  end
+
   scenario 'User creates a new book with valid data' do
     visit new_book_path
 
