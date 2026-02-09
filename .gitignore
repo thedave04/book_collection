@@ -34,7 +34,6 @@
 /config/master.key
 
 node_modules/
-
 .rspec
-
 coverage/
+output.html

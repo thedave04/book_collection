@@ -51,6 +51,7 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 
   gem "rspec-rails"
+  gem 'dotenv-rails', require: 'dotenv/load'
 end
 
 group :development do
@@ -73,3 +74,11 @@ gem "rexml"
 gem "rubocop"
 
 gem "seed_dump"
+
+gem 'devise', '~>4.9'
+
+gem "omniauth", "~> 2.1"
+
+gem "omniauth-rails_csrf_protection", "~> 1.0"
+
+gem "omniauth-google-oauth2", "~> 1.1"

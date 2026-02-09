@@ -1,3 +1,5 @@
+require 'omniauth'
+OmniAuth.config.test_mode = true
 require 'simplecov'
 SimpleCov.start
 
