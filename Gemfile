@@ -67,7 +67,7 @@ group :test do
   gem "simplecov", require: false
 end
 
-gem "concurrent-ruby", "1.3.4"
+gem "concurrent-ruby", "1.3.6"
 
 gem "rexml"
 
